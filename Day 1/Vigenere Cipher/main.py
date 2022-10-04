@@ -25,8 +25,10 @@ def decrypt(cipher_text, key):
     
 
 plain = input("Enter the text: ")
+plain = plain.upper()
 key = input("Enter the key: ")
 key = generateKey(plain, key)
+key = key.upper()
 cipher = encrypt(plain,key)
 print("Ciphertext : ", cipher)
 print("Original/Decrypted Text: ",decrypt(cipher, key))
