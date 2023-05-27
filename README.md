@@ -1,4 +1,4 @@
-# CSA5158-CNS
+# Cryptography Sample Programs
 > ### Day 1
 > - Caesar Cipher
 > - Vignere Cipher
